@@ -1,6 +1,10 @@
 # MiSTer Doctor
 
-Not affiliated with the fine folks with the MiSTer project. 
+Community tooling to diagnose hardware issues in the [MiSTer](https://mister-devel.github.io/MkDocs_MiSTer/). **Still a POC**.
+
+Not affiliated with the fine folks of the MiSTer project. 
+
+<img src="docs/image.png" alt="MiSTer Doctor" width="300">
 
 ## Problem
 
@@ -13,14 +17,20 @@ To provide a single executable (triggered via the UI), and self-contained boot e
 ## Status
 
 - Very early stage / POC
-- Currently just a wrapper to run [stress-ng](https://github.com/ColinIanKing/stress-ng) (bootable environment not published yet)
+- Currently just a wrapper to run [stress-ng](https://github.com/ColinIanKing/stress-ng)
 
 ## How to run 
+
+### Executable
 
 1. Download a release
 2. Drag and drop the file to the `/Scripts` folder in the SD card
 3. Turn off the MiSTer, and turn on again
 4. In the MiSTer menu, go to scripts, and run the script you downloaded
+
+### Self-contained image
+
+Currently work in progress.
 
 ## Developing
 
