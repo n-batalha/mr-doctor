@@ -1,0 +1,3 @@
+[submodule "src/stress-ng"]
+	path = src/stress-ng
+	url = https://github.com/ColinIanKing/stress-ng.git
