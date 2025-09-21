@@ -27,6 +27,7 @@ To provide a single executable (triggered via the UI), and self-contained boot e
 2. Drag and drop the file to the `/Scripts` folder in the SD card
 3. Turn off the MiSTer, and turn on again
 4. In the MiSTer menu, go to scripts, and run the script you downloaded
+5. You will find test results in the `logs` folder of your SD card
 
 ### Self-contained image
 
