@@ -6,6 +6,7 @@
 - Linux/macOS (WSL is fine)
 - [makeself](https://makeself.io/)
 - [dialog](https://invisible-island.net/dialog/) (for testing locally)
+- [requirements of stress-ng](https://github.com/ColinIanKing/stress-ng?tab=readme-ov-file#building-stress-ng)
 
 Checkout git submodules:
 
@@ -37,20 +38,20 @@ From [here](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/ARM-cross-compiling
 
 #### Build
 
-See requirements of stress-ng: https://github.com/ColinIanKing/stress-ng
-
 ```bash
 cd stress-ng
 make
 ```
 
-Now copy the build for our process:
+Now, copy the build to be used for our process:
 
 ```bash
-cp src/stress-ng/stress-ng build/
+cp stress-ng ../../build/
 ```
 
 ### Make the binary
+
+In the repo root dir:
 
 ```bash
 make all
